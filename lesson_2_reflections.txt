@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+1) an invisible file with the name .git is created containing metadata about the directory. 
+
+2) to enable tracking changes to the files contained in the directory.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+1) number of files in staging area <= number of files in working directory/repository; staging area is intermediate, temporary area, wd/rep is final area
+2) separating changes to different files into different commits
+ 
